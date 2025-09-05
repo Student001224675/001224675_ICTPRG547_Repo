@@ -1,0 +1,14 @@
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\bin\Debug\net8.0\Nathan-ICTPRG547-Assignment.exe
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\bin\Debug\net8.0\Nathan-ICTPRG547-Assignment.deps.json
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\bin\Debug\net8.0\Nathan-ICTPRG547-Assignment.runtimeconfig.json
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\bin\Debug\net8.0\Nathan-ICTPRG547-Assignment.dll
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\bin\Debug\net8.0\Nathan-ICTPRG547-Assignment.pdb
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\Nathan-ICTPRG547-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\Nathan-ICTPRG547-Assignment.AssemblyInfoInputs.cache
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\Nathan-ICTPRG547-Assignment.AssemblyInfo.cs
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\Nathan-ICTPRG547-Assignment.csproj.CoreCompileInputs.cache
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\Nathan-ICTPRG547-Assignment.dll
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\refint\Nathan-ICTPRG547-Assignment.dll
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\Nathan-ICTPRG547-Assignment.pdb
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\Nathan-ICTPRG547-Assignment.genruntimeconfig.cache
+C:\Users\natha\OneDrive\Tafe\PHP\Assignment\Nathan-ICTPRG547-Assignment\obj\Debug\net8.0\ref\Nathan-ICTPRG547-Assignment.dll
