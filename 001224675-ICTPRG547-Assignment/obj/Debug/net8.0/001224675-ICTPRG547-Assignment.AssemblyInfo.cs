@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("001224675-ICTPRG547-Assignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5c11648c22ae675537762c89afd4c1932a8665e")]
 [assembly: System.Reflection.AssemblyProductAttribute("001224675-ICTPRG547-Assignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("001224675-ICTPRG547-Assignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

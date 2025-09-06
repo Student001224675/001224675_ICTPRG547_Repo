@@ -12,3 +12,18 @@ C:\Users\natha\OneDrive\Tafe\C# 547\001224675-ICTPRG547-Assignment\obj\Debug\net
 C:\Users\natha\OneDrive\Tafe\C# 547\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.pdb
 C:\Users\natha\OneDrive\Tafe\C# 547\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.genruntimeconfig.cache
 C:\Users\natha\OneDrive\Tafe\C# 547\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\ref\001224675-ICTPRG547-Assignment.dll
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\001224675-ICTPRG547-Assignment.exe
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\001224675-ICTPRG547-Assignment.deps.json
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\001224675-ICTPRG547-Assignment.runtimeconfig.json
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\001224675-ICTPRG547-Assignment.dll
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\001224675-ICTPRG547-Assignment.pdb
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.AssemblyInfoInputs.cache
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.AssemblyInfo.cs
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.csproj.CoreCompileInputs.cache
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.sourcelink.json
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.dll
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\refint\001224675-ICTPRG547-Assignment.dll
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.pdb
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\001224675-ICTPRG547-Assignment.genruntimeconfig.cache
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\ref\001224675-ICTPRG547-Assignment.dll

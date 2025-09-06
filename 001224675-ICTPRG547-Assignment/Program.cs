@@ -92,7 +92,7 @@ Console.WriteLine("Student Test");
 Student student1 = new Student();
 Console.WriteLine("student1");
 Console.WriteLine(student1);
-student1.StudentID = "003755";
+student1.StudentID = "012345";
 student1.StudentProgram = "Programming1";
 student1.StudentDateRegistered = "21/05/4394";
 student1.StudentEnrollment = enrollment1;
@@ -109,5 +109,13 @@ Student student3 = new Student("038465", "Programming3", "29/01/2020", enrollmen
 Console.WriteLine("student3");
 Console.WriteLine(student3);
 Console.WriteLine("number of students " + Student.NumStudents);
+Student student4 = new Student("012345", "Programming4", "12/05/1025");
+Console.WriteLine("student4");
+Console.WriteLine(student4);
+Console.WriteLine("student2 equals student4 " + student2.Equals(student4)); // false
+Console.WriteLine("student4 equals student1 " + student4.Equals(student1)); // true
+Console.WriteLine("student4 equals student2 " + (student4==student2)); //false
+Console.WriteLine("student4 equals student1 " + (student4!=student2)); //true
+Console.WriteLine("get hash code " + (student4.GetHashCode()==student1.GetHashCode())); // true
 Console.WriteLine("");
 Console.ReadKey();
