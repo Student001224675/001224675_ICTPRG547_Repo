@@ -1,0 +1,15 @@
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\Assignment.exe
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\Assignment.deps.json
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\Assignment.runtimeconfig.json
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\Assignment.dll
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\bin\Debug\net8.0\Assignment.pdb
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\Assignment.AssemblyInfoInputs.cache
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\Assignment.AssemblyInfo.cs
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\Assignment.csproj.CoreCompileInputs.cache
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\Assignment.sourcelink.json
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\Assignment.dll
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\refint\Assignment.dll
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\Assignment.pdb
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\Assignment.genruntimeconfig.cache
+C:\001224675_ICTPRG547_Repo\001224675-ICTPRG547-Assignment\obj\Debug\net8.0\ref\Assignment.dll
