@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nathan_ICTPRG547_Assignment
 {
-    class Person
+    public class Person
     {
         /*private string name;
         private string email;

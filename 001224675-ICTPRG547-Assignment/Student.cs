@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nathan_ICTPRG547_Assignment
 {
-    class Student:Person
+    public class Student:Person,IComparable<Student>
     {
         /*private string studentID;
         private string program;
@@ -125,6 +125,11 @@ namespace Nathan_ICTPRG547_Assignment
         public override int GetHashCode()
         {
             return StudentID.GetHashCode();
+        }
+
+        public int CompareTo(Student other)
+        {
+            return StudentID.CompareTo(other.StudentID);
         }
     }
 }

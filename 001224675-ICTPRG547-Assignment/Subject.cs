@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nathan_ICTPRG547_Assignment
 {
-    class Subject
+    public class Subject
     {
         /*private string subjectCode;
         private string subjectName;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nathan_ICTPRG547_Assignment
 {
-    class Address
+    public class Address
     {
         /*private int streetNum;
         private string streetName;
