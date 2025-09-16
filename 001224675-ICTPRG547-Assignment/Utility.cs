@@ -58,12 +58,12 @@ namespace Nathan_ICTPRG547_Assignment
             while (min <= max)
             {
                 int mid = min + (max - min) / 2;
-                int comparison = array[mid].CompareTo(target);
+                int comparison = target.CompareTo(array[mid]);
                 if (comparison == 0)
                 {
                     return mid;
                 }
-                else if (comparison < 0)
+                else if (comparison > 0)
                 {
                     min = mid + 1; 
                 }
