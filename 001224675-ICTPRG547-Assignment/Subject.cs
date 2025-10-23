@@ -13,9 +13,9 @@ namespace Nathan_ICTPRG547_Assignment
         private double cost;*/
         private static int numSubjects;
 
-        const string DEF_SUBJECT_CODE = "Not found";
-        const string DEF_SUBJECT_NAME = "Not found";
-        const double DEF_COST = 0;
+        const string DEF_SUBJECT_CODE = "No code";
+        const string DEF_SUBJECT_NAME = "No name";
+        const double DEF_COST = -0.1;
         /// <summary>
         /// Getters and setters for all parameters
         /// </summary>

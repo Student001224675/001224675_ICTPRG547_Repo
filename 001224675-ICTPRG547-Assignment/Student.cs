@@ -14,12 +14,9 @@ namespace Nathan_ICTPRG547_Assignment
         private Enrollment enrollment;*/
         private static int numStudents;
 
-        const string DEF_STUDENT_ID = "Not Found";
-        const string DEF_PROGRAM = "Not found";
-        const string DEF_DATE_REGISTERED = "Not found";
-        const string DEF_NAME = "Not Found";
-        const string DEF_EMAIL = "Not found";
-        const string DEF_PHONE_NUMBER = "Not found";
+        const string DEF_STUDENT_ID = "No ID";
+        const string DEF_PROGRAM = "None";
+        const string DEF_DATE_REGISTERED = "00/00/0000";
 
         /// <summary>
         /// Getters and setters for all parameters

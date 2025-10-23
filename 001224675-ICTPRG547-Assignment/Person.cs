@@ -14,9 +14,9 @@ namespace Nathan_ICTPRG547_Assignment
         private Address address;*/
         private static int numPeople;
 
-        const string DEF_NAME = "John doe";
-        const string DEF_EMAIL = "Not found";
-        const string DEF_PHONE_NUMBER = "Not found";
+        public const string DEF_NAME = "John doe";
+        public const string DEF_EMAIL = "Email not provided";
+        public const string DEF_PHONE_NUMBER = "Phone not provided";
         /// <summary>
         /// Getters and setters for all parameters
         /// </summary>

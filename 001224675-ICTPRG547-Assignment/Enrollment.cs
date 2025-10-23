@@ -14,9 +14,9 @@ namespace Nathan_ICTPRG547_Assignment
         private Subject subject;*/
         private static int numEnrollments;
 
-        const string DEF_DATE_ENROLLED = "Not found";
-        const string DEF_GRADE = "Not found";
-        const int DEF_SEMESTER = 0;
+        const string DEF_DATE_ENROLLED = "Not enrolled";
+        const string DEF_GRADE = "Not graded";
+        const int DEF_SEMESTER = -1;
         /// <summary>
         /// Getters and setters for all parameters
         /// </summary>

@@ -16,10 +16,10 @@ namespace Nathan_ICTPRG547_Assignment
         private static int numAddress;
 
         const int DEF_STREET_NUM = 0;
-        const string DEF_STREET_NAME = "Not found";
-        const string DEF_SUBURB = "Not found";
-        const int DEF_POSTCODE = 0;
-        const string DEF_STATE = "Not found";
+        const string DEF_STREET_NAME = "No Street name";
+        const string DEF_SUBURB = "No Suburb";
+        const int DEF_POSTCODE = -1111;
+        const string DEF_STATE = "No State";
         /// <summary>
         /// Getters and setters for all parameters
         /// </summary>
