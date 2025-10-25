@@ -21,6 +21,11 @@ namespace Nathan_ICTPRG547_Assignment
         /// <returns>the index of the found object</returns>
         public static int LinearSearchArray<T>(T[] array, T target) where T : IComparable<T>
         {
+            if (array == null)
+            {
+                throw new ArgumentNullException(nameof(array), "Array cannot be null");
+            }
+
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i].Equals(target))
@@ -53,11 +58,21 @@ namespace Nathan_ICTPRG547_Assignment
         /// <returns>the index of the found object</returns>
         public static int BinarySearchArray<T>(T[] array, T target) where T : IComparable<T>
         {
+            if (array == null)
+            {
+                throw new ArgumentNullException(nameof(array), "Array cannot be null");
+            }
+
+            if(!IsSorted(array))
+            {
+                throw new ArgumentException("Array must be sorted for binary search", nameof(array));
+            }
+
             int min = 0;
             int max = array.Length - 1;
             while (min <= max)
             {
-                int mid = min + (max - min) / 2;
+                int mid = min + (max - min) /2;
                 int comparison = target.CompareTo(array[mid]);
                 if (comparison == 0)
                 {
@@ -133,6 +148,18 @@ namespace Nathan_ICTPRG547_Assignment
                     }
                 }
             }
+        }
+
+        private static bool IsSorted<T>(T[] array) where T : IComparable<T>
+        {
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                if (array[i].CompareTo(array[i + 1]) > 0)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

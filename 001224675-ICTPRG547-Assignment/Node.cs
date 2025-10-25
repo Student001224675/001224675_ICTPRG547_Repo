@@ -11,6 +11,14 @@ namespace Nathan_ICTPRG547_Assignment
         public T Data { get; set; }
         public Node<T> Next { get; set; }
 
+        public Node<T> LeftNode { get; set; }
+        public Node<T> RightNode { get; set; }
+
+        public Node(T data)
+        {
+            Data = data;
+        }
+
     }
     
     

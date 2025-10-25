@@ -6,28 +6,20 @@ using System.Threading.Tasks;
 
 namespace Nathan_ICTPRG547_Assignment
 {
-    public class Node
+    public class BinaryTree<T> where T : IComparable<T>
     {
-        public Node LeftNode { get; set; }
-        public Node RightNode { get; set; }
-        public int Data { get; set; }
-    }
-
-    public class BinaryTree
-    {
-        public Node Root { get; set; }
-
-        public bool Add(int value)
+        public Node<T> Root;
+        public bool Add(T data)
         {
-            Node before = null;
-            Node after = this.Root;
+            Node<T> before = null;
+            Node<T> after = this.Root;
 
             while (after != null)
             {
                 before = after;
-                if (value < after.Data)
+                if (data.CompareTo(after.Data) < 0)
                     after = after.LeftNode;
-                else if (value > after.Data)
+                else if (data.CompareTo(after.Data) > 0)
                     after = after.RightNode;
                 else
                 {
@@ -35,16 +27,15 @@ namespace Nathan_ICTPRG547_Assignment
                 }
             }
 
-            Node newNode = new Node();
-            newNode.Data = value;
-
+            Node<T> newNode = new Node<T>(data);
+            
             if(this.Root == null)
             {
                 this.Root = newNode;
             }
             else
             {
-                if (value < before.Data)
+                if (data.CompareTo(before.Data) < 0)
                     before.LeftNode = newNode;
                 else
                     before.RightNode = newNode;
@@ -52,20 +43,20 @@ namespace Nathan_ICTPRG547_Assignment
             return true;
         }
 
-        public Node Find(int value)
+        public Node<T> Find(T value)
         {
             return this.Find(value, this.Root);
         }
 
-        private Node Find(int value, Node parent)
+        private Node<T> Find(T value, Node<T> parent)
         {
             if (parent != null)
             {
-                if (value == parent.Data)
+                if (value.CompareTo(parent.Data) == 0)
                 {
                     return parent;
                 }
-                if (value < parent.Data)
+                if (value.CompareTo(parent.Data) < 0)
                 {
                     return Find(value, parent.LeftNode);
                 }
@@ -77,23 +68,23 @@ namespace Nathan_ICTPRG547_Assignment
             return null;
         }
 
-        public void Remove(int value)
+        public void Remove(T value)
         {
             this.Root = Remove(this.Root, value);
         }
 
-        private Node Remove(Node parent, int key)
+        private Node<T> Remove(Node<T> parent, T key)
         {
             if(parent == null)
             {
                 return parent;
             }
 
-            if (key < parent.Data)
+            if (key.CompareTo(parent.Data) < 0)
             {
                 parent.LeftNode = Remove(parent.LeftNode, key);
             }
-            else if (key > parent.Data)
+            else if (key.CompareTo(parent.Data) > 0)
             {
                 parent.RightNode = Remove(parent.RightNode, key);
             }
@@ -114,9 +105,9 @@ namespace Nathan_ICTPRG547_Assignment
             return parent;
         }
 
-        private int MinValue(Node node)
+        private T MinValue(Node<T> node)
         {
-            int minv = node.Data;
+            T minv = node.Data;
             while (node.LeftNode != null)
             {
                 minv = node.LeftNode.Data;
@@ -130,12 +121,12 @@ namespace Nathan_ICTPRG547_Assignment
             return GetTreeDepth(this.Root);
         }
 
-        private int GetTreeDepth(Node current)
+        private int GetTreeDepth(Node<T> current)
         {
             return current == null ? 0 : Math.Max(GetTreeDepth(current.LeftNode), GetTreeDepth(current.RightNode)) + 1;
         }
 
-        public void TraversePreOrder(Node parent)
+        public void TraversePreOrder(Node<T> parent)
         {
             if (parent != null)
             {
@@ -145,7 +136,7 @@ namespace Nathan_ICTPRG547_Assignment
             }
         }
 
-        public void TraverseInOrder(Node parent)
+        public void TraverseInOrder(Node<T> parent)
         {
             if (parent != null)
             {
@@ -155,7 +146,7 @@ namespace Nathan_ICTPRG547_Assignment
             }
         }
 
-        public void TraversePostOrder(Node parent)
+        public void TraversePostOrder(Node<T> parent)
         {
             if (parent != null)
             {

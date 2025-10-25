@@ -5,7 +5,7 @@ using Nathan_ICTPRG547_Assignment;
 namespace SearchingSortingTest
 {
     [TestFixture]
-    public class LinkedTests
+    public class SinglyLinkedTests
     {
         private SinglyLinkedList<Student> list;
         private Student[] students;
@@ -162,12 +162,12 @@ namespace SearchingSortingTest
     [TestFixture]
     public class BinaryTreeTests
     {
-        private BinaryTree tree;
+        private BinaryTree<string> tree;
         private Student[] students;
         [SetUp]
         public void SetUp()
         {
-            tree = new BinaryTree();
+            tree = new BinaryTree<string>();
             students = new Student[]
             {
                 new Student("S001","IT","15/1/2025"),
@@ -182,11 +182,17 @@ namespace SearchingSortingTest
                 new Student("S010","IT","24/1/2025")
             };
 
-            foreach (var student in students)
-            {
-                var key = int.Parse(student.StudentID.Substring(1));
-                tree.Add(key);
-            }
+            tree.Add(students[5].StudentID);
+            tree.Add(students[2].StudentID);
+            tree.Add(students[8].StudentID);
+            tree.Add(students[1].StudentID);
+            tree.Add(students[4].StudentID);
+            tree.Add(students[7].StudentID);
+            tree.Add(students[9].StudentID);
+            tree.Add(students[0].StudentID);
+            tree.Add(students[3].StudentID);
+            tree.Add(students[6].StudentID);
+
         }
 
         [Test]
@@ -200,7 +206,7 @@ namespace SearchingSortingTest
 
             var tokens = sw.ToString().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
             var actual = string.Join(" ", tokens);
-            var expected = "1 2 3 4 5 6 7 8 9 10";
+            var expected = "S006 S003 S002 S001 S005 S004 S009 S008 S007 S010";
 
             Assert.AreEqual(expected, actual);
 
@@ -219,7 +225,7 @@ namespace SearchingSortingTest
             var tokens = sw.ToString().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             var actual = string.Join(" ", tokens);
 
-            var expected = "1 2 3 4 5 6 7 8 9 10";
+            var expected = "S001 S002 S003 S004 S005 S006 S007 S008 S009 S010";
             Assert.AreEqual(expected, actual);
         }
 
@@ -236,7 +242,7 @@ namespace SearchingSortingTest
             var tokens = sw.ToString().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             var actual = string.Join(" ", tokens);
 
-            var expected = "10 9 8 7 6 5 4 3 2 1";
+            var expected = "S001 S002 S004 S005 S003 S007 S008 S010 S009 S006";
             Assert.AreEqual(expected, actual);
         }
     }

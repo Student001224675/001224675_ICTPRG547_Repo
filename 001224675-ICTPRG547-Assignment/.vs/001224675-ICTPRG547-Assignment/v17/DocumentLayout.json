@@ -3,23 +3,8 @@
   "WorkspaceRootPath": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF63B6B3-7EB1-463F-B0D7-CB21112AC8E4}|..\\SearchingSortingTest\\SearchingSortingTest.csproj|c:\\001224675_ictprg547_repo\\searchingsortingtest\\linkedtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|c:\\001224675_ictprg547_repo\\001224675-ictprg547-assignment\\singlylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|solutionrelative:singlylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|c:\\001224675_ictprg547_repo\\001224675-ictprg547-assignment\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|solutionrelative:binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|c:\\001224675_ictprg547_repo\\001224675-ictprg547-assignment\\doublylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|solutionrelative:doublylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|c:\\001224675_ictprg547_repo\\001224675-ictprg547-assignment\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|solutionrelative:node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|c:\\001224675_ictprg547_repo\\001224675-ictprg547-assignment\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|solutionrelative:utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF63B6B3-7EB1-463F-B0D7-CB21112AC8E4}|..\\SearchingSortingTest\\SearchingSortingTest.csproj|c:\\001224675_ictprg547_repo\\searchingsortingtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -27,6 +12,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|c:\\001224675_ictprg547_repo\\001224675-ictprg547-assignment\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF63B6B3-7EB1-463F-B0D7-CB21112AC8E4}|..\\SearchingSortingTest\\SearchingSortingTest.csproj|c:\\001224675_ictprg547_repo\\searchingsortingtest\\linkedtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|c:\\001224675_ictprg547_repo\\001224675-ictprg547-assignment\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF2743A0-0BD7-4769-A9B6-FD5EC118E6DA}|Assignment.csproj|solutionrelative:node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,9 +27,22 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 278,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 286,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LinkedTests.cs",
+              "DocumentMoniker": "C:\\001224675_ICTPRG547_Repo\\SearchingSortingTest\\LinkedTests.cs",
+              "RelativeDocumentMoniker": "..\\SearchingSortingTest\\LinkedTests.cs",
+              "ToolTip": "C:\\001224675_ICTPRG547_Repo\\SearchingSortingTest\\LinkedTests.cs",
+              "RelativeToolTip": "..\\SearchingSortingTest\\LinkedTests.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAxwPQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T04:12:31.718Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -46,85 +51,46 @@
               "RelativeDocumentMoniker": "Node.cs",
               "ToolTip": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\Node.cs",
               "RelativeToolTip": "Node.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T01:55:33.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BinaryTree.cs",
-              "DocumentMoniker": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\BinaryTree.cs",
-              "RelativeDocumentMoniker": "BinaryTree.cs",
-              "ToolTip": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\BinaryTree.cs",
-              "RelativeToolTip": "BinaryTree.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAmwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T00:50:10.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DoublyLinkedListNode.cs",
-              "DocumentMoniker": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\DoublyLinkedListNode.cs",
-              "RelativeDocumentMoniker": "DoublyLinkedListNode.cs",
-              "ToolTip": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\DoublyLinkedListNode.cs",
-              "RelativeToolTip": "DoublyLinkedListNode.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T00:25:16.692Z",
+              "WhenOpened": "2025-10-25T02:24:13.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LinkedTests.cs",
-              "DocumentMoniker": "C:\\001224675_ICTPRG547_Repo\\SearchingSortingTest\\LinkedTests.cs",
-              "RelativeDocumentMoniker": "..\\SearchingSortingTest\\LinkedTests.cs",
-              "ToolTip": "C:\\001224675_ICTPRG547_Repo\\SearchingSortingTest\\LinkedTests.cs",
-              "RelativeToolTip": "..\\SearchingSortingTest\\LinkedTests.cs",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAUwO0AAAAAAAAAAAAAAA==",
+              "Title": "Utility.cs",
+              "DocumentMoniker": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\Utility.cs",
+              "RelativeDocumentMoniker": "Utility.cs",
+              "ToolTip": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\Utility.cs",
+              "RelativeToolTip": "Utility.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAwwFMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T00:12:16.426Z",
+              "WhenOpened": "2025-10-25T00:13:06.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SinglyLinkedListNode.cs",
-              "DocumentMoniker": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\SinglyLinkedListNode.cs",
-              "RelativeDocumentMoniker": "SinglyLinkedListNode.cs",
-              "ToolTip": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\SinglyLinkedListNode.cs",
-              "RelativeToolTip": "SinglyLinkedListNode.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T23:51:35.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\001224675_ICTPRG547_Repo\\SearchingSortingTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\SearchingSortingTest\\UnitTest1.cs",
               "ToolTip": "C:\\001224675_ICTPRG547_Repo\\SearchingSortingTest\\UnitTest1.cs",
               "RelativeToolTip": "..\\SearchingSortingTest\\UnitTest1.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAswAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T02:27:43.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
               "ToolTip": "C:\\001224675_ICTPRG547_Repo\\001224675-ICTPRG547-Assignment\\Student.cs",
               "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAA7wBAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAMwEYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T01:06:22.54Z",
               "EditorCaption": ""
@@ -132,7 +98,7 @@
           ]
         },
         {
-          "DockedHeight": 122,
+          "DockedHeight": 114,
           "SelectedChildIndex": -1,
           "Children": [
             {
